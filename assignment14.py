@@ -45,8 +45,27 @@
 # else:
 #     print(False)
 
-lst = [10, 20, 30, 40, 50, 60]
-lst.pop()
-print(lst)
+# lst = [10, 20, 30, 40, 50, 60]
+# lst.pop()
+# print(lst)
 
-          
+# my_dict = eval(input("Enter a dictionary: "))
+# print(my_dict)
+# my_dict.update({"ram":"python"})
+# print(my_dict)
+
+# dict_1 = {"name":"Ram","emp_id":"101","salary":"21000"}
+# if "salary" in dict_1:
+#     print("Salary is in dict_1")
+# else:
+#     print("salary not in dict_1")
+
+# num = dict()
+# for x in range(1,16):
+#     num[x] = x ** 2
+# print(num)
+    
+string = "python programming"
+my_dict = dict(string)
+print(my_dict)
+
